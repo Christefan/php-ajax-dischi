@@ -18,7 +18,7 @@
                 <?php foreach ($database as $value) { ?>
                     <div class="container-box">    
                         <img src=<?php echo $value["poster"] ?>></img>
-                        <h3><?php echo $value["title"] ?></h3>
+                        <h2><?php echo $value["title"] ?></h2>
                         <p><?php echo $value["author"] ?></p>
                         <p><?php echo $value["year"] ?></p>
                     </div>
