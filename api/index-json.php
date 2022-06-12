@@ -11,10 +11,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+<header class="container-fluid">
+    <div class="container-logo">
+        <img src="./img/spotify_logo.png" alt="">
+    </div>
+</header>
 <main id="root">
         <div class="container">
-            <div class="row row-cols-4">
-                <div class="container-box" v-for="value in database">
+            <div class="row justify-content-center py-5 row-cols-4">
+                <div class="container-box my-5 mx-5 py-5 px-5" v-for="value in database">
                         
                         <img :src="value.poster "/>
                         <h2>{{ value.title }}</h2>

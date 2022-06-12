@@ -4,20 +4,29 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+header {
+    height: 10vh;
+    background-color: rgba(46,58,70,255);
+}
+.container-logo {
+    width: 90px;
+}
+main {
+    background-color: rgba(30, 45, 59, 255);
+}
 .container-box{
-    padding: 1rem;
-    margin: 0.1rem;
     text-align: center;
     min-height: 400px;
     background-color: #2e3a46;
 }
 h2 {
-    font-size: 33px;
+    font-size: 22px;
     color: white;
     width: 80%;
     margin: 20px auto;
 }
 p {
+    font-size: 22px;
     margin: -0.3rem;
     color: rgb(186, 175, 175);
 }
